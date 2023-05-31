@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/ci":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci@1.0.6/mod.ts",
-    "react-icons/ci/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci@1.0.6/ico/",
+    "react-icons/ci":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci@1.0.7/mod.ts",
+    "react-icons/ci/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib ci
 
 ```ts
-import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.6/mod.ts"
+import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { CiAirportSign1 } from "react-icons/ci"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import CiAirportSign1 from "react-icons/ci/CiAirportSign1.ts"
