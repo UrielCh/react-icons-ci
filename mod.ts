@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.1/mod.ts"`
+ * ```ts
+ * import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { CiAirportSign1 } from "react-icons/ci"`
+ * ```ts
+ * import { CiAirportSign1 } from "react-icons/ci"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1.ts"`
+ * ```ts
+ * import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import CiAirportSign1 from "react-icons/ci/CiAirportSign1.ts"`
+ * ```ts
+ * import CiAirportSign1 from "react-icons/ci/CiAirportSign1.ts"
+ * ```
  * 
  * @module
  */
