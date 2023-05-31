@@ -15,20 +15,29 @@
  * ```json
  * {
  *   "imports": {
- *     "preact": "https://esm.sh/preact@10.15.1",
+ *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/ci": "https://deno.land/x/react_icons_ci@1.0.0//mod.ts",
+ *     "react-icons/ci":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci@1.0.1/mod.ts",
+ *     "react-icons/ci/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ci/ico/",
  *   }
  * }
  * ```
  * 
  * ## Direct import sample
  * 
- * `import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.0/mod.ts"`
+ * `import { CiAirportSign1 } from "https://deno.land/x/react_icons_ci@1.0.1/mod.ts"`
  * 
  * ## import_map import sample
  * 
  * `import { CiAirportSign1 } from "react-icons/ci"`
+ * 
+ * ## minimal import
+ * 
+ * `import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1.ts"`
+ * 
+ * ## minimal import default
+ * 
+ * `import CiAirportSign1 from "react-icons/ci/CiAirportSign1.ts"`
  * 
  * @module
  */
