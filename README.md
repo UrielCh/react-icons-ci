@@ -42,5 +42,5 @@ import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1"
 or using default export
 
 ```ts
-import CiAirportSign1 from "react-icons/ci/CiAirportSign1.ts"
+import CiAirportSign1 from "react-icons/ci/CiAirportSign1"
 ```
