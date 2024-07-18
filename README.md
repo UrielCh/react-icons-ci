@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/ci)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/ci": "jsr:@preact-icons/ci@^1.0.11/mod.ts",
-    "react-icons/ci/": "jsr:@preact-icons/ci@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/ci
+dnpx jsr add @preact-icons/ci
+pnpm dlx jsr add @preact-icons/ci
+bunx jsr add @preact-icons/ci
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib ci
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { CiAirportSign1 } from "jsr:preact-icons/ci@1.0.11/mod.ts"
+
+# Circum Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/ci)](https://jsr.io/@preact-icons/ci)
+
+**License** [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE)
+
+**Project** [https://circumicons.com/](https://circumicons.com/)
+
+[See available icons here](https://react-icons.deno.dev/ci)
+
+## install packahe
+
+```bash
+deno add @preact-icons/ci
+dnpx jsr add @preact-icons/ci
+pnpm dlx jsr add @preact-icons/ci
+bunx jsr add @preact-icons/ci
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { CiAirportSign1 } from "react-icons/ci"
+import { CiAirportSign1 } from "@preact-icons/ci"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1.ts"
+import { CiAirportSign1 } from "react-icons/ci/CiAirportSign1"
 ```
 
 or using default export
