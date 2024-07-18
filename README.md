@@ -1,6 +1,6 @@
 # Circum Icons icons for preact
 
-[![JSR](https://jsr.io/badges/@preact-icons/ci)](https://jsr.io/@preact-icons/name)
+[![JSR](https://jsr.io/badges/@preact-icons/ci)](https://jsr.io/@preact-icons/ci)
 
 **License** [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE)
 
